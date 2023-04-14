@@ -1,0 +1,43 @@
+Arguments: 
+  /home/ti-co-06/.nvm/versions/node/v16.15.0/bin/node /home/ti-co-06/.nvm/versions/node/v16.15.0/bin/yarn add -D typescript @node/types
+
+PATH: 
+  /home/ti-co-06/.nvm/versions/node/v16.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ti-co-06/.dotnet/tools:/home/ti-co-06/Android/Sdk/emulator:/home/ti-co-06/Android/Sdk/tools:/home/ti-co-06/Android/Sdk/tools/bin:/home/ti-co-06/Android/Sdk/platform-tools:/home/ti-co-06/Android/Sdk/emulator:/home/ti-co-06/Android/Sdk/tools:/home/ti-co-06/Android/Sdk/tools/bin:/home/ti-co-06/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@node%2ftypes: Not found
+      at Request.params.callback [as _callback] (/home/ti-co-06/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at Request.self.callback (/home/ti-co-06/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/home/ti-co-06/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/home/ti-co-06/.nvm/versions/node/v16.15.0/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "chat-simples",
+    "version": "1.0.0",
+    "description": "Um chat simples com nodejs",
+    "main": "index.js",
+    "author": "Daniel G. Guerra",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
